@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/styles.css">
+    <title>AluraGeek</title>
+    <link rel="shortcut icon" href="./img/logo.png" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <img src="./img/logo-alurageek-white.svg" alt="logo alura geek">
+    </header>
+    <main>
+        <section class="section-products">
+            <h1 class="title">MEUS PRODUTOS:</h1>
+            <ul class="products-container" id="products-container" data-lista>       
+            </ul>
+        </section>
+        <section class="form">
+            <h2 class="title">ADICIONAR PRODUTO:</h2>
+            <form data-formulario>
+                <div class="campos">
+                    <input class="input" type="text" id="nome" name="nome" placeholder="nome..." required data-nome>
+                    <input class="input" type="number" id="preco" name="preco" placeholder="valor..." required data-preco>
+                    <input class="input" type="text" id="imagem" name="imagem" placeholder="imagem..." required data-imagem>
+                    <div class="buttons">
+                        <button type="submit" class="botao guardar" id="guardar">Guardar</button>
+                        <button type="button" class="botao limpar" id="limpar">Limpar</button>
+                    </div>
+                </div>
+            </form>
+        </section>
+    </main>
+    <footer class="footer">
+        <img src="./img/logo-alurageek-white.svg" alt="logo alura geek">
+        <p>DESENVOLVIDO POR [STHEFANY CAIRES]</p>
+        <p class="alura">ALURA LATAM - 2024</p>
+    </footer>
+    <script src="/js/mostrarProdutos.js" type="module"></script>
+    <script src="/js/criarProduto.js" type="module"></script>
+    <script src="/js/deletarProduto.js" type="module"></script>
+</body>
+</html>

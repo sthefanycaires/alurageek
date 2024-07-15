@@ -1,0 +1,64 @@
+{
+  "produtos": [
+    {
+      "id": 1,
+      "nome": "Super Man",
+      "preco": "180",
+      "imagem": "https://http2.mlstatic.com/D_NQ_NP_694456-MLB53486710145_012023-O.webp"
+    },
+    {
+      "id": 2,
+      "nome": "Mulher maravilha",
+      "preco": "180",
+      "imagem": "https://cdn.awsli.com.br/600x450/1919/1919257/produto/185290889/39edaaf8de.jpg"
+    },
+    {
+      "id": 4,
+      "nome": "Hermione Granger",
+      "preco": "180",
+      "imagem": "https://m.media-amazon.com/images/I/61SW9BrvVgL._AC_UF894,1000_QL80_.jpg"
+    },
+    {
+      "nome": "Porta-Chaves Mônica",
+      "preco": "210",
+      "imagem": "https://acdn.mitiendanube.com/stores/001/752/612/products/h0c69110bafb9468da99927f539078886n-f29caeebc2c37152f717073577881418-640-0.webp",
+      "id": 5
+    },
+    {
+      "nome": "Cofre Pikachu",
+      "preco": "210",
+      "imagem": "https://acdn.mitiendanube.com/stores/001/752/612/products/9cffa9032d7d40bbd59666e56a782c1b-961569dfd5fe8dc47317105609491737-640-0.webp",
+      "id": 6
+    },
+    {
+      "nome": "Luminária Astronauta",
+      "preco": "322",
+      "imagem": "https://acdn.mitiendanube.com/stores/001/752/612/products/7e8fafe317717fdf2ad6625d091d8438-4b0ad218a69c070a4a17105364378935-640-0.webp",
+      "id": 7
+    },
+    {
+      "nome": "Vasos de Planta Groot",
+      "preco": "173",
+      "imagem": "https://acdn.mitiendanube.com/stores/001/752/612/products/2202e49adc8f8ce2a3acb68f3d65fc8f-ab52ad06c547d3e23917067569129350-640-0.webp",
+      "id": 8
+    },
+    {
+      "nome": "Despertador Emojis",
+      "preco": "235",
+      "imagem": "https://acdn.mitiendanube.com/stores/001/752/612/products/d61ae310182917552370bc44a2770777-3aa72b359ead4f6b9917025223526804-640-0.webp",
+      "id": 9
+    },
+    {
+      "nome": "Luminária Poção",
+      "preco": "252",
+      "imagem": "https://acdn.mitiendanube.com/stores/001/752/612/products/s3d1cbf89ae4c4ccfa97e7f71b592ae1e8-jpg_-627b44845eccf04c5217142614354884-640-0.webp",
+      "id": 10
+    },
+    {
+      "nome": "Mandrake",
+      "preco": "113",
+      "imagem": "https://acdn.mitiendanube.com/stores/001/752/612/products/sbff6236a68b449e09ad2fc5bdc62628f5-32e34a0bef17b4e1b517006808886542-640-0.webp",
+      "id": 11
+    }
+  ]
+}

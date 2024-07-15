@@ -1,0 +1,174 @@
+* {
+    font-family: "IBM Plex Mono", monospace;
+}
+
+header {
+    display: flex;
+    padding: 20px 0px 20px 0px;
+    justify-content: center;
+    background-color: #5300C8;
+}
+
+main {
+    display: flex;
+    padding: 110px 70px;
+    gap: 70px;
+}
+
+.section-products {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    width: 50%;
+    padding: 40px;
+}
+
+.form {
+    display: flex;
+    padding: 40px;
+    width: 50%;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+
+.title {
+    font-family: "Press Start 2P", system-ui;
+    font-size: 24px;
+    text-align: center;
+}
+
+.product {
+    min-width: 196px;
+    height: 330px;
+    width: 100%;
+    flex: 1 0 0;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    background-color: #5300C8;
+    border-radius: 10px;
+    border: 3px solid #000;
+    color: white;
+    gap: 10px;
+    box-shadow: -5px 6px 3.299999952316284px 0px rgba(0, 0, 0, 25%);
+}
+
+.imagem-produto {
+    width: 100%;
+    height: 274px; 
+    object-fit: cover;
+    border-radius: 5px;
+    border: 3px solid #000;
+}
+
+.card-container--info {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.card-container--value {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-container--value p {
+    font-weight: 700;
+}
+
+.card-container--value img {
+    width: 20px;
+    height: 20px;
+}
+
+.products-container {
+    display: flex;
+    box-shadow: -12px 10px 5.800000190734863px 0px rgba(0, 0, 0, 25%);
+    padding: 15px;
+    align-items: flex-start;
+    align-content: flex-start;
+    gap: 78px 10px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+input {
+    height: 58px;
+    background-color: #fff;
+    border: 3px solid #03318C;
+    border-radius: 30px;
+    padding: 0px 15px;
+    
+}
+
+input::placeholder {
+    color: #03318C;
+    font-weight: 600;
+}
+
+form {
+    width: 100%;
+}
+
+.campos {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.buttons {
+    display: flex;
+    gap: 15px;
+}
+
+.botao {
+    width: 100%;
+    padding: 15px 0px;
+    border-radius: 15px;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.botao.guardar {
+    background-color: #03318C;
+    color: #fff;
+}
+
+.botao.limpar {
+    border: 3px solid #03318C;
+    color: #03318C;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    padding: 64px;
+    background-color: #5300C8;
+    color: white;
+    text-align: center;
+    font-family: "IBM Plex Mono", monospace;
+    align-items: center;
+    gap: 15px;
+}
+
+.footer img {
+    width: 374px;
+}
+
+.alura {
+    font-weight: 200;
+}
+
+@media (max-width: 768px) {
+    main {
+        flex-direction: column;
+        padding: 30px;
+    }
+
+    .section-products, .form {
+        width: 100%;
+        padding: 0px;
+    }
+}
